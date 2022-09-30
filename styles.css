@@ -1,15 +1,16 @@
 body {
-  width: 100%;
   height: auto;
   background-image: url(./images/imagen-fondo.png);
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: unset;
   flex-direction: column;
   align-items: center;
+  margin: 0px;
+  padding: 0;
 }
 
 header {
+  display: flex;
+  flex-direction: column;
   background-color: black;
   padding: 1rem;
   margin: 0;
@@ -19,4 +20,15 @@ header {
 .img__logo {
   width: 100px;
   border-radius: 50px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.navbar ul li {
+  list-style: none;
+  text-decoration: none;
 }
